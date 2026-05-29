@@ -9,4 +9,5 @@ printf("Enter second number:");
 scanf("%f",&num2);
 ans = num1*num2;
 printf("Your Answer is :%f",ans);
+return 0;
 }
