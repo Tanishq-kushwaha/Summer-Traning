@@ -23,10 +23,8 @@ This repository contains all the work completed during my summer training.
 
 ## Project Included
 - Calculator
-- Student Management System
-- Number Guessing Game
-
-## How to Run
+- 
+## How to Run          
 
 Compile:
 ```bash
