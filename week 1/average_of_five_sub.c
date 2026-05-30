@@ -1,3 +1,7 @@
+/*
+Program: Average Marks Calculator
+Objective: Calculate the average of five subject marks using type casting.
+*/
 #include<stdio.h>
 int main(){
   int first, second, third, fourth, fifth, sum;
