@@ -1,3 +1,4 @@
+// The Modulo Operator
 #include<stdio.h>
 int main(){
   int remainingDays, remainingDaysAfterWeeks, days, weeks, year;
