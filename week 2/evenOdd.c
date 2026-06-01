@@ -1,4 +1,9 @@
 // Problem 1: The Even/Odd Check
+/*
+ * Program: Even or Odd Number Checker
+ * Objective: Accept an integer input from the user and determine whether 
+ *            it is even or odd by checking the remainder using the modulo operator (%).
+ */
 #include<stdio.h>
 int main(){
     int num;
