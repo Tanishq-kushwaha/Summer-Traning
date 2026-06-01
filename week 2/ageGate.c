@@ -6,5 +6,14 @@
  */
 #include<stdio.h>
 int main(){
-
+    int age;
+   printf("Age Gate Eligibility System \n");
+   printf("Enter your age : ");
+   scanf("%d",&age);
+   if(age >= 18){
+    printf("You are eligible to vote.");
+   }else{
+    printf("You are a minor, access denied.");
+   }
+   return 0;
 }
