@@ -12,4 +12,5 @@
     scanf("%d",&width);
     area = length * width;
     printf("The Area of rectangle : %d",area);
+    return 0;
  }
