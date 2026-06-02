@@ -6,12 +6,13 @@
  #include<stdio.h>
  int main(){
     int a,b,c;
-  printf("Enter the value for A");
-  scanf("%d"&a);
-  printf("Enter the Value for B");
+  printf("Enter the value for A :");
+  scanf("%d",&a);
+  printf("Enter the Value for B :");
   scanf("%d",&b);
-  a = c;
+  c = a;
   a = b;
   b = c;
   printf("After swap \n A is :%d \n B is : %d ",a,b);
+  return 0;
  }
