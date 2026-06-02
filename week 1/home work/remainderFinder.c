@@ -3,6 +3,7 @@
  * Objective: Accept two integers from the user and calculate the remainder using the modulo (%) operator.
  */
 
+ 
 #include<stdio.h>
 int main(){
     int num1, num2, remainder;
