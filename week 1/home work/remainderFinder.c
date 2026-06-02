@@ -6,9 +6,9 @@
 #include<stdio.h>
 int main(){
     int num1, num2, remainder;
-    printf("Enter the Dividend : \n");
+    printf("Enter the Dividend : ");
     scanf("%d",&num1);
-    printf("Enter the Divisor : \n");
+    printf("Enter the Divisor : ");
     scanf("%d",&num2);
     remainder = num1 % num2;
     printf("Remainder is : %d",remainder);
