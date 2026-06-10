@@ -20,4 +20,5 @@
     }
 
     printf("The total digit count is : %d", count);
+    return 0;
  }
