@@ -5,7 +5,7 @@
  #include<stdio.h>
  int main(){
     int num;
-    int i = 1;
+    int i;
     int sum = 0;
     printf("Enter your number : ");
     scanf("%d",&num);
@@ -13,7 +13,7 @@
     for(i = 1; i <= num ; i++){
         sum = sum + i;
     }}else{
-        printf("Invalid input\n");
+        printf("Invalid input\a");
         return 1;
     }
     printf("Sum is : %d", sum);
