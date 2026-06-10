@@ -9,9 +9,13 @@
     int sum = 0;
     printf("Enter your number : ");
     scanf("%d",&num);
-
-    for(i; i <= num ; i++){
+  if(num > 0){
+    for(i = 1; i <= num ; i++){
         sum = sum + i;
+    }}else{
+        printf("Invalid input\n");
+        return 1;
     }
     printf("Sum is : %d", sum);
+    return 0;
  }
