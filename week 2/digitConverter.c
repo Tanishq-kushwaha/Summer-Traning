@@ -4,3 +4,12 @@
  * Logic: Use a while loop to repeatedly perform integer division by 10, 
  * incrementing a counter variable until the number reduces to zero.
  */
+ #include<stdio.h>
+ #include<conio.h>
+ int main(){
+    int num;
+    printf("Enter your number : ");
+    scanf("%d",&num);
+
+    
+ }
