@@ -10,6 +10,10 @@
     int num;
     printf("Enter your number : ");
     scanf("%d",&num);
-
-    
+    int count = 0;
+    while(num > 0){
+       num = num/10;
+       count++;
+    }
+    printf("The total digit count is : %d", count);
  }
