@@ -14,4 +14,5 @@
         reverse = reverse * 10 + lastDigit;
     }
     printf("%d", reverse);
+    return 0;
  }
