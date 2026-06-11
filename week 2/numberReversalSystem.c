@@ -13,6 +13,6 @@
         lastDigit = num % 10;
         reverse = reverse * 10 + lastDigit;
     }
-    printf("%d", reverse);
+    printf("The reversed number is: %d\n", reverse);
     return 0;
  }
