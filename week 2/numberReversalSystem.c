@@ -9,9 +9,10 @@
   int lastDigit;
   printf("Enter the Number : ");
   scanf("%d",&num);
-    for(lastDigit = 0; num > 0; num = num/10){
+    while(num > 0){
         lastDigit = num % 10;
         reverse = reverse * 10 + lastDigit;
+        num = num / 10;
     }
     printf("The reversed number is: %d\n", reverse);
     return 0;
