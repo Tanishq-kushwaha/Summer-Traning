@@ -1,10 +1,13 @@
 /*
  * Program: Palindrome Number Checker
  * Objective: Verify if a user-input integer reads the same backward as forward.
- * Logic: Store the original number, calculate its reverse using a loop, 
- * and perform an equality check (==) between the original and reversed values.
+
  */
  #include<stdio.h>
  int main(){
-    
+    int num , originalNum;
+    printf("Enter your number : ");
+    scanf("%d",&num);
+
+
  }
