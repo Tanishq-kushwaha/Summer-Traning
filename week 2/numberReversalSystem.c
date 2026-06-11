@@ -6,13 +6,12 @@
  int main(){
   int num;
   int reverse = 0;
-  int digit;
   int lastDigit;
   printf("Enter the Number : ");
   scanf("%d",&num);
-    for(digit = 0; num > 0; num/10){
-        digit = num % 10;
-        reverse = reverse * 10 + digit;
+    for(lastDigit = 0; num > 0; num = num/10){
+        lastDigit = num % 10;
+        reverse = reverse * 10 + lastDigit;
     }
     printf("%d", reverse);
  }
