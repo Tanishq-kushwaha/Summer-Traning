@@ -4,3 +4,7 @@
  * Logic: Store the original number, calculate its reverse using a loop, 
  * and perform an equality check (==) between the original and reversed values.
  */
+ #include<stdio.h>
+ int main(){
+    
+ }
