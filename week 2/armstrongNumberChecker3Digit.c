@@ -6,19 +6,28 @@
  */
 
  #include<stdio.h>
- #include<math.h>
  int main(){
     int num;
     int lastDigit;
     int sum = 0;
+
+   int  originalNum = num;
     printf("Enter your three digit number : ");
-    scanf("%d"%num);
+    scanf("%d",&num);
 
     while(num > 0){
      lastDigit = num % 10;
      num = num / 10;  
-     sum = sum + pow(lastDigit, 3);
+     sum = sum + lastDigit*lastDigit*lastDigit;
     }
-  print("%d", sum);
-  return 0;  
+
+  // printf("%d", sum);
+
+  if(sum == originalNum){
+    printf("This is a Armstrong Number.");
+    return 0;  
+  }else{
+    printf("This is Not  a Armstrong Number.");
+    return 1;
+  }
  }
