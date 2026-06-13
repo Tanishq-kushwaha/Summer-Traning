@@ -1,8 +1,6 @@
 /*
  * Program: Fibonacci Series Generator
  * Objective: Display the Fibonacci sequence up to a user-specified number of terms (N).
- * Logic: Maintain two tracking variables for the first two terms (0 and 1), and use a loop 
- * to continuously calculate and print the next term by summing the previous two.
  */
  #include<stdio.h>
  int main(){
@@ -14,11 +12,11 @@
     scanf("%d",&n);
     printf("%d %d",num2, num3);
 
-    for(int i = n-2; i <= n; i++){
+    for(int i = 0; i <= 2; i++){
      num1 = num2 + num3;
      num2 = num3;
      num3 = num1;
-     printf("%d",num1); 
+     printf(" %d",num1); 
     }
     return 0;
  }
