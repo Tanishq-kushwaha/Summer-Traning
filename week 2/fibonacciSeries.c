@@ -6,14 +6,20 @@
  */
  #include<stdio.h>
  int main(){
-    int num;
-    int num1 = 0;
-    int num2 = 1;
-    printf(Enter your number of terms : );
-    scanf("%d"&num);
+    int n;
+    int num1;
+    int num2 = 0;
+    int num3 = 1;
+    printf("Enter your number of terms :" );
+    scanf("%d",&n);
 
-    for(int i = 0; i < num ; i++){
-     num = num1 + num2;
-     num = num + num2;
+    for(int i = n; i <= n; i++){
+        n = n - 2;
+     num1 = num2 + num3;
+     printf("%d %d",num2, num3);
+     num2 = num3;
+     num3 = num1;
+     printf("%d",num1); 
     }
+    return 0;
  }
