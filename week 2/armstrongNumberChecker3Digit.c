@@ -10,11 +10,12 @@
     int num;
     int lastDigit;
     int sum = 0;
-
-   int  originalNum = num;
-    printf("Enter your three digit number : ");
-    scanf("%d",&num);
-
+   int originalNum;
+   
+   printf("Enter your three digit number : ");
+   scanf("%d",&num);
+   originalNum  = num;
+   
     while(num > 0){
      lastDigit = num % 10;
      num = num / 10;  
