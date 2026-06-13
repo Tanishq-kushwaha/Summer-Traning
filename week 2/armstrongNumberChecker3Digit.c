@@ -31,6 +31,6 @@
     return 0;  
   }else{
     printf("This is Not  a Armstrong Number.");
-    return 1;
+    return 0;
   }
  }
