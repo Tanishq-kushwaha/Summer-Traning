@@ -6,12 +6,19 @@
  */
 
  #include<stdio.h>
+ #include<math.h>
  int main(){
     int num;
+    int lastDigit;
+    int sum = 0;
     printf("Enter your three digit number : ");
     scanf("%d"%num);
 
     while(num > 0){
-        
+     lastDigit = num % 10;
+     num = num / 10;  
+     sum = sum + pow(lastDigit, 3);
     }
+  print("%d", sum);
+  return 0;  
  }
