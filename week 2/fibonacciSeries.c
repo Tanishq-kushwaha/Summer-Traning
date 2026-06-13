@@ -7,10 +7,13 @@
  #include<stdio.h>
  int main(){
     int num;
+    int num1 = 0;
+    int num2 = 1;
     printf(Enter your number of terms : );
     scanf("%d"&num);
 
     for(int i = 0; i < num ; i++){
-    
+     num = num1 + num2;
+     num = num + num2;
     }
  }
