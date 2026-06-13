@@ -12,7 +12,10 @@
    
    printf("Enter your three digit number : ");
    scanf("%d",&num);
-   if(num < 100)
+   if(num < 100|| num > 999){
+    printf("Please enter only three digit value. ");
+    return 1;
+   }
    originalNum  = num;
    
     while(num > 0){
