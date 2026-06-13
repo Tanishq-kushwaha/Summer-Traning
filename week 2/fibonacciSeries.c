@@ -10,13 +10,12 @@
     int num3 = 1;
     printf("Enter your number of terms :" );
     scanf("%d",&n);
-    printf("%d %d",num2, num3);
 
-    for(int i = 0; i <= 2; i++){
+    for(int i = 0; i < n; i++){   
+     printf(" %d",num2); 
      num1 = num2 + num3;
      num2 = num3;
      num3 = num1;
-     printf(" %d",num1); 
     }
     return 0;
  }
