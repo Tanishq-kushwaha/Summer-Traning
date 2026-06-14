@@ -14,7 +14,7 @@ printf("Enter your no : ");
 scanf("%d", &b);
 printf("Enter your no : ");
 scanf("%d", &c);
-// int z = getAverage(a, b, c); 
+ 
 printf("%d", getAverage(a, b, c));
 return 0;
 }
