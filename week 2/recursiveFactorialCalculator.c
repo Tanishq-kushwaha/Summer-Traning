@@ -12,10 +12,14 @@
     int fact;
    printf("Enter your number : ");
    scanf("%d",&n);
+   if(n < 0){
+    printf("invalid input");
+   }else{
    fact = calculateFactorial(n);
    printf("Factorial is %d", fact);
    return 0;
  }
+} 
 
 int calculateFactorial(int n){
  if(n == 1 || n == 0 ){
