@@ -7,13 +7,20 @@
 #include<stdio.h>
 
 
-perimeter(10, 5);
+int perimeter(int a, int b);
 
 int main(){
-
-    printf("Perimeter of a Rectangle is : %d", para);
-    return 0;
+    int result;
+    int a, b;
+ printf("Enter your Rectangle length : ");
+ scanf("%d",&a);
+ printf("Enter your Rectangle width: ");
+ scanf("%d",&b);
+ result = perimeter(a, b);
+ printf(" Perimeter is : %d", result);
+ return 0;
 }
+
 int perimeter(int a, int b)
 {
     int p;
