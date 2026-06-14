@@ -5,12 +5,18 @@
 // Constraint 3: main() should handle taking the user inputs (length and width) and passing them to the function.
 
 #include<stdio.h>
+
+
+perimeter(10, 5);
+
+int main(){
+
+    printf("Perimeter of a Rectangle is : %d", para);
+    return 0;
+}
 int perimeter(int a, int b)
 {
     int p;
-    p = 2(a + b);
+    p = 2*(a + b);
     return p;
-}
-int main(){
-perimeter(10, 5);
 }
