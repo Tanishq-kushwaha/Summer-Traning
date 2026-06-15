@@ -11,9 +11,11 @@
         printf("Enter your value : ");
         scanf("%d",&arr[i]);
     }
-    int max = arr[0];
-    int min = arr[0];
     for(i = 1; i < 5; i++){
+        
+        int max = arr[0];
+        int min = arr[0];
+
        if(arr[i] > max){
         max = arr[i];
           }
