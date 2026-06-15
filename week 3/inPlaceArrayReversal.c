@@ -25,7 +25,7 @@
     end--;
 }
 for(int i = 0; i < n; i++){
-  printf("Reverse is : %d", arr[i]);
+  printf("Reverse is : %d \n", arr[i]);
 }
 
   return 0;
