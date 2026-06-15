@@ -20,12 +20,12 @@
     int temp;
     temp = arr[start];
     arr[start] = arr[end];
-    end = temp;
+    arr[end] = temp;
     start++;
     end--;
 }
-for(int i = 0; i < n-1; i++){
-  printf("%d", arr[i]);
+for(int i = 0; i < n; i++){
+  printf("Reverse is : %d", arr[i]);
 }
 
   return 0;
