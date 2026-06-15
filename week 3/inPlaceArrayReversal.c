@@ -13,5 +13,20 @@
     printf("Enter your value : ");
     scanf("%d",&arr[i]);
   }
+  int start = 0;
+  int end = n-1;
+
+  while(start < end){
+    int temp;
+    temp = arr[start];
+    arr[start] = arr[end];
+    end = temp;
+    start++;
+    end--;
+}
+for(int i = 0; i < n-1; i++){
+  printf("%d", arr[i]);
+}
+
   return 0;
  }
