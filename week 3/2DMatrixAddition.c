@@ -22,10 +22,12 @@
    sum[i][j] = matrix1[i][j] + matrix2[i][j];
     } 
  }
+ printf("Sum is \n");
  for(int i = 0; i<2 ; i++){
     for(int j = 0; j<2 ; j++){
-   printf("sum is : %d\n", sum[i][j]);
+   printf("%d ", sum[i][j]);
     } 
+    printf("\n");
  }
  return 0;
 }
