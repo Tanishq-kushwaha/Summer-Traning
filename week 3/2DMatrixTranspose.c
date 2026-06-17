@@ -5,7 +5,7 @@
  #include<stdio.h>
  int main(){
     int matrix[2][2];
-    
+
     printf("Enter your matrix \n");
     for(int i = 0; i<2; i++){
         for(int j = 0; j<2; j++){
@@ -13,7 +13,6 @@
             scanf("%d",&matrix[i][j]);
         }
     }
-
     //  Transpose Matrix
  printf("Transpose Matrix \n");
   for(int i = 0; i<2;i++){
