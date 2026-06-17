@@ -19,7 +19,7 @@
     for(int j = 0; j<2 ; j++){
    printf("Enter your value : ");
    scanf("%d",&matrix2[i][j]);
-   sum[2][2] = matrix1[i][j] + matrix2[i][j];
+   sum[i][j] = matrix1[i][j] + matrix2[i][j];
     } 
  }
  printf("sum is : ", sum[2][2]);
