@@ -4,19 +4,24 @@
  */
  #include<stdio.h>
  int main(){
-   int matrix1[2][2] = 
-   {
-    {2,3},
-    {4,5}
-   };
-  int matrix2[2][2] = 
-  {
-  {6,7},
-  {8,9}
-  };
-
-  int sum[2][2] = 0;
-   
-
-
+    int matrix1[2][2];
+    int matrix2[2][2];
+    int sum[2][2];
+    printf("Enter your value for matrix 1\n");
+   for(int i = 0; i<2 ; i++){
+    for(int j = 0; j<2 ; j++){
+   printf("Enter your value : ");
+   scanf("%d",&matrix1[i][j]);
+    } 
  }
+   printf("Enter your value for matrix 2\n");
+    for(int i = 0; i<2 ; i++){
+    for(int j = 0; j<2 ; j++){
+   printf("Enter your value : ");
+   scanf("%d",&matrix2[i][j]);
+   sum[2][2] = matrix1[i][j] + matrix2[i][j];
+    } 
+ }
+ printf("sum is : ", sum[2][2]);
+ return 0;
+}
