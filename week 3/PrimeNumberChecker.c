@@ -8,7 +8,7 @@
     int n;
     int isPrime = 1;
     printf("Enter your number : ");
-    scanf("%d",%n);
+    scanf("%d",&n);
     
 
     if(n <= 1){
