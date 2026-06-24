@@ -17,12 +17,12 @@ int main(){
       int end = strLength - 1;
 
       while(start < end){
-      int temp = str[start];
+      char temp = str[start];
       str[start] = str[end];
       str[end] = temp;
       start++;
-      end++;
+      end--;
       }
-     
+     printf("%s", str);
     return 0;
 }
