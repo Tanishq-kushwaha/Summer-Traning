@@ -13,7 +13,17 @@ int main(){
     for(int i = 0; str[i] != '\0'; i++){
      strLength++;
     }
+      int start = 0;
+      int end = strlength - 1;
 
-    
+      while(start < end){
+      int temp = str[start];
+      str[start] = str[end];
+      str[end] = temp;
+      start++;
+      end++;
+      }
+      printf("%s" str);
+
     return 0;
 }
