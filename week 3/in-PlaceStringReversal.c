@@ -13,6 +13,7 @@ int main(){
     for(int i = 0; str[i] != '\0'; i++){
      strLength++;
     }
-    printf("%d",&strLength);
+
+    
     return 0;
 }
