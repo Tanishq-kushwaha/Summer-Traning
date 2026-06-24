@@ -14,7 +14,7 @@ int main(){
      strLength++;
     }
       int start = 0;
-      int end = strlength - 1;
+      int end = strLength - 1;
 
       while(start < end){
       int temp = str[start];
@@ -23,7 +23,6 @@ int main(){
       start++;
       end++;
       }
-      printf("%s" str);
-
+     
     return 0;
 }
