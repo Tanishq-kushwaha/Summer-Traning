@@ -6,6 +6,13 @@
  #include<stdio.h>
  int main(){
    char str[50];
-   printf("Enter your string (without space)");
-   scanf("%s" str);
+   int length = 0;
+   printf("Enter your string (without space): ");
+   scanf("%s", str);
+
+   while(str[length] != '\0'){
+     length++;
+   }
+   printf("%d", length);
+   return 0;
  }
