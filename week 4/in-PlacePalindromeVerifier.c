@@ -6,11 +6,11 @@
  #include<stdio.h>
  int main(){
     char str[10];
-    int isPalindrome = 1;
     printf("Enter your string : ");
     scanf("%s", str);
-    
+    int length = 0;
     while(str[length] != '\0'){
+        int isPalindrome = 1;
        
     }
     return 0;
