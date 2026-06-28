@@ -6,8 +6,12 @@
  #include<stdio.h>
  int main(){
     char str[10];
-
-    printf("Enter your string");
+    int isPalindrome = 1;
+    printf("Enter your string : ");
     scanf("%s", str);
+    
+    while(str[length] != '\0'){
+       
+    }
     return 0;
  }
