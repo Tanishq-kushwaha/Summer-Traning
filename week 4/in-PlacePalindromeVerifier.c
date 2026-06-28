@@ -5,13 +5,31 @@
  */
  #include<stdio.h>
  int main(){
-    char str[10];
+    char str[50];
+    // int isPalindrome = 1;
     printf("Enter your string : ");
     scanf("%s", str);
     int length = 0;
     while(str[length] != '\0'){
-        int isPalindrome = 1;
-       
+       length++;
     }
+    int start = 0;
+    int end = length - 1;
+    int isPalindrome = 1;
+    while(start < end){
+       if(str[start] 1= str[end]){
+        isPalindrome = 0;
+        break;
+       }else{
+        start++;
+        end++;
+       }   
+    }
+    if(isPalindrome == 1){
+        printf("Palindrome");
+    }else(
+        printf("Palindrome");
+    )
+   
     return 0;
  }
