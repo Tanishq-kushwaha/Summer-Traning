@@ -22,7 +22,7 @@
         break;
        }else{
         start++;
-        end++;
+        end--;
        }   
     }
     if(isPalindrome == 1){
